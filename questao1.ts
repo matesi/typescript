@@ -4,7 +4,7 @@ const Soma = (INDICE:number): number => {
 
     while (K < INDICE) {
         result = result + K;
-        K = K + 1;
+        K++;
     }
     return result;
 };
